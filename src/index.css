@@ -30,3 +30,61 @@ li {
 img {
   @apply block max-w-full h-auto;
 }
+
+@layer base {
+  @font-face {
+    font-family: "Brotesk";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(./assets/fonts/Brotesk-SemiBold.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Darker-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(./assets/fonts/DarkerGrotesque-Bold.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Darker-Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(./assets/fonts/DarkerGrotesque-Medium.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "DMSans";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./assets/fonts/DMSans-Regular.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Mustica";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(./assets/fonts/MusticaPro-SemiBold.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(./assets/fonts/Syne-Bold.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Transforma";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(./assets/fonts/TransformaMix_Trial-SemiBold.ttf) format("truetype");
+  }
+}
