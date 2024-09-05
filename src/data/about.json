@@ -1,0 +1,23 @@
+{
+  "name": "Про нас",
+  "title": "Індивідуальний підхід та гнучкість для створення цифрових рішень",
+  "subtitle": "Наша команда працює над тим, щоб кожне рішення було максимально адаптивним, інтуїтивним і орієнтованим на вашого кінцевого користувача.",
+  "statistics": [
+    { "id": 1, "value": "1250+", "text": "виконаних проектів" },
+    { "id": 2, "value": "10mln+", "text": "рядків коду" },
+    { "id": 3, "value": "99%", "text": "задоволених клієнтів" },
+    { "id": 4, "value": "85%", "text": "зростання бізнесу" }
+  ],
+  "imgMan": {
+    "mobile1x": "/src/assets/images/about/man-mobile.webp",
+    "mobile2x": "/src/assets/images/about/man-mobile@2x.webp",
+    "desktop1x": "/src/assets/images/about/man-desktop.webp",
+    "desktop2x": "/src/assets/images/about/man-desktop@2x.webp",
+    "alt": "чоловік з ноутбуком в руках"
+  },
+  "imgKeyboard": {
+    "img1x": "/src/assets/images/about/keyboard.webp",
+    "img2x": "/src/assets/images/about/keyboard@2x.webp",
+    "alt": "клавіатура та рука на мишці"
+  }
+}

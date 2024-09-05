@@ -1,0 +1,51 @@
+{
+  "footer": {
+    "slogan": "Комітимо мрії в реальність"
+  },
+  "address": {
+    "title": "Адреса",
+    "text": "Київ, Україна\nТЦ Мармелад, вул. Борщагівська\n154, офіс / блок 4-5"
+  },
+  "phone": {
+    "title": "Телефони",
+    "numbers": ["+38 098-001-39-39", "+38 093-001-39-39", "+38 066-001-39-39"]
+  },
+  "contacts": {
+    "title": "Месенджери",
+    "contact": [
+      {
+        "name": "Email: gmail",
+        "href": "mailto:email@email.com",
+        "ariaLabel": "lint to email"
+      },
+      {
+        "name": "Telegram: sales",
+        "href": "https://t.me",
+        "ariaLabel": "lint to telegram"
+      },
+      {
+        "name": "Viber: sales",
+        "href": "viber://add?number=+380980013939",
+        "ariaLabel": "lint to viber"
+      }
+    ]
+  },
+  "social": [
+    {
+      "icon": "linkedIn",
+      "href": "https://www.linkedin.com",
+      "ariaLabel": "link to linkedin"
+    },
+    {
+      "icon": "instagram",
+      "href": "https://www.instagram.com/",
+      "ariaLabel": "link to instagram"
+    },
+    {
+      "icon": "facebook",
+      "href": "https://www.facebook.com/",
+      "ariaLabel": "link to facebook"
+    }
+  ],
+  "copyright": "Copyright © 2022 BRIX Templates | All Rights Reserved"
+}

@@ -1,7 +1,19 @@
+import { Footer } from "./components/footer";
+import { Header } from "./components/header";
+import { About } from "./sections/about";
+import { Cases } from "./sections/cases";
+import { Hero } from "./sections/hero";
+
 function App() {
   return (
     <>
-      <h1 className="font-darkerBold">Vite + React</h1>
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        <Cases />
+      </main>
+      <Footer />
     </>
   );
 }

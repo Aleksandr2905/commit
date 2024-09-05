@@ -4,7 +4,7 @@
 
 body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  @apply text-base font-normal text-[#171313] m-0;
+  @apply text-base font-normal text-black bg-white m-0;
 }
 
 h1,
@@ -29,6 +29,14 @@ li {
 }
 img {
   @apply block max-w-full h-auto;
+}
+
+.contact-title {
+  @apply font-transforma text-xl font-semibold text-whiteMilky mb-[6px] xl:w-64;
+}
+
+.contact-text {
+  @apply font-mustica text-base font-semibold text-grey whitespace-pre-wrap hover:opacity-70 transition-all duration-300;
 }
 
 @layer base {
@@ -87,4 +95,47 @@ img {
     font-display: swap;
     src: url(./assets/fonts/TransformaMix_Trial-SemiBold.ttf) format("truetype");
   }
+}
+
+.hero-bg {
+  width: 100%;
+  background-image: url("/src/assets/images/hero/hero-mobile.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-bg {
+    background-image: url("/src/assets/images/hero/hero-mobile@2x.webp");
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-bg {
+    background-image: url("/src/assets/images/hero/hero-desktop.webp");
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-bg {
+      background-image: url("/src/assets/images/hero/hero-desktop@2x.webp");
+    }
+  }
+}
+
+.chevron::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 34px;
+  background-image: url("/src/assets/images/icons/chevron.svg");
+  background-size: cover;
 }
