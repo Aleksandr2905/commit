@@ -9,7 +9,7 @@ import { common } from "../../data";
 export const Footer: React.FC = () => {
   const { footer, copyright } = common;
   return (
-    <footer className="bg-black">
+    <footer id="contacts" className="bg-black">
       <div className="container p-5 xl:py-[60px] xl:px-[100px]">
         <div className="flex flex-col gap-10 xl:flex-row xl:justify-between">
           <div>

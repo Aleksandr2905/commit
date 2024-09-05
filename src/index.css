@@ -7,6 +7,10 @@ body {
   @apply text-base font-normal text-black bg-white m-0;
 }
 
+* {
+  @apply scroll-smooth;
+}
+
 h1,
 h2,
 h3,
@@ -117,6 +121,9 @@ img {
 @media screen and (min-width: 1440px) {
   .hero-bg {
     background-image: url("/src/assets/images/hero/hero-desktop.webp");
+    background-size: 100%;
+    background-position: unset;
+    background-repeat: repeat;
   }
 
   @media (min-device-pixel-ratio: 2),

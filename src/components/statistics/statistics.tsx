@@ -8,7 +8,7 @@ export const Statistics: React.FC = () => {
       {statistics.map(({ id, value, text }) => (
         <li
           key={id}
-          className="w-[170px] p-5 bg-whiteMilky rounded-3xl xl:w-[439px]"
+          className="w-[170px] p-5 bg-whiteMilky rounded-3xl xl:w-[432px]"
         >
           <p className="font-mustica text-[40px] font-semibold leading-[1.2] text-red mb-2 xl:text-[68px]  xl:mb-5">
             {value}

@@ -12,7 +12,7 @@ export const About: React.FC = () => {
   const { name, title, subtitle, imgMan, imgKeyboard } = about;
 
   return (
-    <section className="mt-[60px] xl:mt-5">
+    <section id="about" className="mt-[60px] xl:mt-5">
       <div className="container">
         <div className="p-[10px] xl:p-0">
           <div className="flex flex-col gap-6 mb-6 xl:flex-row xl:justify-between xl:px-10 xl:py-20 xl:mb-0">

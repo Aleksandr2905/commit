@@ -1,4 +1,9 @@
 {
+  "navigation": [
+    { "href": "#about", "name": "Про нас" },
+    { "href": "#cases", "name": "Кейси" },
+    { "href": "#contacts", "name": "Контакти" }
+  ],
   "footer": {
     "slogan": "Комітимо мрії в реальність"
   },
