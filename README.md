@@ -1,50 +1,44 @@
-# React + TypeScript + Vite
+# COMMIT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![commit](./public/ogp.webp)
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To start working with the project locally, follow these steps:
 
-## Expanding the ESLint configuration
+### Clone the Repository:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+`git clone https://github.com/Aleksandr2905/commit`
 
-- Configure the top-level `parserOptions` property like this:
+### Install Dependencies:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+**Using Yarn:**
+`yarn install`
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+**Using npm:**
+`npm run dev`
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Run the Application:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+**Using Yarn:**
+`yarn dev`
+
+**Using npm:**
+`npm install`
+
+### Open in Your Browser:
+
+[http://localhost:5173/](http://localhost:5173/)
+
+# Technologies
+
+The project utilizes the following technologies:
+
+| Technology                                                                                                                  | Description                                                                                                     |
+| --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| ![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)                         | [React](https://reactjs.org/) — A JavaScript library for building user interfaces                               |
+| ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)          | [TypeScript](https://www.typescriptlang.org/) — A strongly typed programming language that builds on JavaScript |
+| ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)      | [Tailwind CSS](https://tailwindcss.com/) — A utility-first CSS framework for rapid UI development               |
+| ![Swiper](https://img.shields.io/badge/-Swiper-6332F6?style=for-the-badge&logo=swiper&logoColor=white)                      | [Swiper](https://swiperjs.com/) — A modern library for creating sliders and carousels                           |
+| ![React Responsive](https://img.shields.io/badge/-React%20Responsive-61DAFB?style=for-the-badge&logo=react&logoColor=black) | [React Responsive](https://www.npmjs.com/package/react-responsive) — A media query component for React          |
+| ![clsx](https://img.shields.io/badge/-clsx-000000?style=for-the-badge&logo=css3&logoColor=white)                            | [clsx](https://www.npmjs.com/package/clsx) — A tiny utility for constructing `className` strings efficiently    |
