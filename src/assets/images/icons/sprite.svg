@@ -15,5 +15,11 @@
 <symbol id="close" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M4 6l24 20M4 26l24-20"></path>
 </symbol>
+<symbol id="arrow-right" viewBox="0 0 43 32">
+<path  stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.1831" d="M25.068 1.739l0.418-0.418 13.191 13.191 1.423 1.488-1.433 1.498-13.182 13.181-2.995-2.995 9.591-9.591h-29.288v-4.186h29.288l-9.591-9.591 2.577-2.577z"></path>
+</symbol>
+<symbol id="arrow-left" viewBox="0 0 43 32">
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.1831" d="M17.599 1.739l-0.418-0.418-13.191 13.191-1.423 1.488 1.433 1.498 13.182 13.181 2.995-2.995-9.591-9.591h29.288v-4.186h-29.288l9.591-9.591-2.577-2.577z"></path>
+</symbol>
 </defs>
 </svg>

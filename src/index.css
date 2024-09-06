@@ -146,3 +146,29 @@ img {
   background-image: url("/src/assets/images/icons/chevron.svg");
   background-size: cover;
 }
+
+.point::after {
+  content: "";
+  position: absolute;
+  bottom: 6px;
+  left: 0;
+  width: 11px;
+  height: 11px;
+  background-image: url("/src/assets/images/icons/point.svg");
+  background-size: cover;
+}
+
+.swiper-scrollbar-horizontal {
+  display: flex;
+  align-items: center;
+  background-color: #efefef;
+  height: 18px !important;
+  padding: 2px;
+}
+
+.swiper-scrollbar-drag {
+  width: 72px;
+  background-color: #e3000b;
+  border-radius: 100px;
+  height: 14px;
+}
