@@ -1,5 +1,4 @@
 import { useRef } from "react";
-
 import { useMediaQuery } from "react-responsive";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Scrollbar } from "swiper/modules";
@@ -8,8 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 
-import { SlideMobile } from "../slide-mobile";
-import { SlideDesktop } from "../slide-desktop";
+import { Slide } from "../slide";
 
 import sprite from "/images/icons/sprite.svg";
 
@@ -17,29 +15,24 @@ import { cases } from "../../data";
 
 export const Slider: React.FC = () => {
   const isMobile = useMediaQuery({ maxWidth: 1439 });
-  const isDesktop = useMediaQuery({ minWidth: 1440 });
   const refSlider = useRef<SwiperCore | null>(null);
 
   const { slideMob, slideDesktop } = cases;
 
   const handlePrev = () => {
-    if (refSlider.current) {
-      refSlider.current.slidePrev(500);
-    }
+    if (refSlider.current) refSlider.current.slidePrev(500);
   };
 
   const handleNext = () => {
-    if (refSlider.current) {
-      refSlider.current.slideNext(500);
-    }
+    if (refSlider.current) refSlider.current.slideNext(500);
   };
+
+  const slides = isMobile ? slideMob : slideDesktop;
 
   return (
     <div className="relative">
       <Swiper
-        onSwiper={(swiper) => {
-          refSlider.current = swiper;
-        }}
+        onSwiper={(swiper) => (refSlider.current = swiper)}
         modules={[Scrollbar, Navigation]}
         slidesPerView={"auto"}
         spaceBetween={24}
@@ -48,19 +41,11 @@ export const Slider: React.FC = () => {
         scrollbar={{ draggable: true }}
         className="pb-5"
       >
-        {isMobile &&
-          slideMob.map((slide) => (
-            <SwiperSlide key={slide.id}>
-              <SlideMobile slide={slide} />
-            </SwiperSlide>
-          ))}
-
-        {isDesktop &&
-          slideDesktop.map((slide) => (
-            <SwiperSlide key={slide.id}>
-              <SlideDesktop slide={slide} />
-            </SwiperSlide>
-          ))}
+        {slides.map((slide) => (
+          <SwiperSlide key={slide.id}>
+            <Slide slide={slide} isMobile={isMobile} />
+          </SwiperSlide>
+        ))}
       </Swiper>
       <div className="flex py-5 justify-between absolute top-[39%] left-5 right-5 z-20 xl:top-[45%]">
         <button
