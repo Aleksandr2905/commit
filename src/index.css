@@ -103,7 +103,7 @@ img {
 
 .hero-bg {
   width: 100%;
-  background-image: url("/src/assets/images/hero/hero-mobile.webp");
+  background-image: url("/images/hero/hero-mobile.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -114,13 +114,13 @@ img {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero-bg {
-    background-image: url("/src/assets/images/hero/hero-mobile@2x.webp");
+    background-image: url("/images/hero/hero-mobile@2x.webp");
   }
 }
 
 @media screen and (min-width: 1440px) {
   .hero-bg {
-    background-image: url("/src/assets/images/hero/hero-desktop.webp");
+    background-image: url("/images/hero/hero-desktop.webp");
     background-size: 100%;
     background-position: unset;
     background-repeat: repeat;
@@ -131,7 +131,7 @@ img {
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-bg {
-      background-image: url("/src/assets/images/hero/hero-desktop@2x.webp");
+      background-image: url("/images/hero/hero-desktop@2x.webp");
     }
   }
 }
@@ -143,7 +143,7 @@ img {
   left: 0;
   width: 16px;
   height: 34px;
-  background-image: url("/src/assets/images/icons/chevron.svg");
+  background-image: url("/images/icons/chevron.svg");
   background-size: cover;
 }
 
@@ -154,7 +154,7 @@ img {
   left: 0;
   width: 11px;
   height: 11px;
-  background-image: url("/src/assets/images/icons/point.svg");
+  background-image: url("/images/icons/point.svg");
   background-size: cover;
 }
 

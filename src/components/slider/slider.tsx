@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 
 import { SlideMobile } from "../slide-mobile";
-import sprite from "../../assets/images/icons/sprite.svg";
+import sprite from "/images/icons/sprite.svg";
 
 import { cases } from "../../data";
 

@@ -9,15 +9,15 @@
     { "id": 4, "value": "85%", "text": "зростання бізнесу" }
   ],
   "imgMan": {
-    "mobile1x": "/src/assets/images/about/man-mobile.webp",
-    "mobile2x": "/src/assets/images/about/man-mobile@2x.webp",
-    "desktop1x": "/src/assets/images/about/man-desktop.webp",
-    "desktop2x": "/src/assets/images/about/man-desktop@2x.webp",
+    "mobile1x": "/images/about/man-mobile.webp",
+    "mobile2x": "/images/about/man-mobile@2x.webp",
+    "desktop1x": "/images/about/man-desktop.webp",
+    "desktop2x": "/images/about/man-desktop@2x.webp",
     "alt": "чоловік з ноутбуком в руках"
   },
   "imgKeyboard": {
-    "img1x": "/src/assets/images/about/keyboard.webp",
-    "img2x": "/src/assets/images/about/keyboard@2x.webp",
+    "img1x": "/images/about/keyboard.webp",
+    "img2x": "/images/about/keyboard@2x.webp",
     "alt": "клавіатура та рука на мишці"
   }
 }

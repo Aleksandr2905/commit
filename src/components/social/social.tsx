@@ -1,4 +1,4 @@
-import sprite from "../../assets/images/icons/sprite.svg";
+import sprite from "/images/icons/sprite.svg";
 
 import { common } from "../../data";
 

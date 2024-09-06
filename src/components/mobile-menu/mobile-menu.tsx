@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import sprite from "../../assets/images/icons/sprite.svg";
+import sprite from "/images/icons/sprite.svg";
 import { Logo } from "../logo";
 import { NavMenu } from "../nav-menu";
 
