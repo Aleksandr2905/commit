@@ -1,5 +1,5 @@
 import { Slide } from "../slider";
 
-export interface SlideMobileProps {
+export interface SlideProps {
   slide: Slide;
 }

@@ -13,6 +13,7 @@ export default {
         red: "#E3000B",
         black: "#171313",
         grey: "#606060",
+        scrollBar: "#efefef",
       },
       fontFamily: {
         brotesk: "Brotesk, sans-serif",

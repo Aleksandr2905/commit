@@ -159,16 +159,9 @@ img {
 }
 
 .swiper-scrollbar-horizontal {
-  display: flex;
-  align-items: center;
-  background-color: #efefef;
-  height: 18px !important;
-  padding: 2px;
+  @apply flex items-center bg-scrollBar !h-[18px] p-0.5 xl:!h-6 w-full;
 }
 
 .swiper-scrollbar-drag {
-  width: 72px;
-  background-color: #e3000b;
-  border-radius: 100px;
-  height: 14px;
+  @apply bg-red rounded-[100px] h-[14px] xl:h-[20px];
 }
