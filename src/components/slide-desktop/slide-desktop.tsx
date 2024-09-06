@@ -7,6 +7,8 @@ export const SlideDesktop: React.FC<SlideProps> = ({ slide }) => {
         src={slide.img1x}
         srcSet={`${slide.img1x} 1x, ${slide.img2x} 2x`}
         alt={slide.alt}
+        width="1400"
+        height="897"
         className="w-full xl:rounded-3xl"
       />
       <div className="xl:p-10 absolute left-0 bottom-0  bg-[rgba(0,0,0,0.20)] backdrop-blur-[100px] rounded-b-3xl xl:w-full">

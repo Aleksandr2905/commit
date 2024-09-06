@@ -66,6 +66,7 @@ export const Slider: React.FC = () => {
         <button
           type="button"
           onClick={handlePrev}
+          aria-label="button prev"
           className="flex justify-center items-center rounded-full border border-whiteMilky w-10 h-10 xl:w-[60px] xl:h-[60px] xl:border-2 bg-[rgba(255, 255, 255, 0.10)]"
         >
           <svg width="14" height="14" className="xl:w-6 xl:h-6">
@@ -75,6 +76,7 @@ export const Slider: React.FC = () => {
         <button
           type="button"
           onClick={handleNext}
+          aria-label="button next"
           className="flex justify-center items-center rounded-full border border-whiteMilky w-10 h-10 xl:w-[60px] xl:h-[60px] xl:border-2 bg-[rgba(255, 255, 255, 0.10)]"
         >
           <svg width="14" height="14" className="xl:w-6 xl:h-6">

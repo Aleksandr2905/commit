@@ -7,6 +7,8 @@ export const SlideMobile: React.FC<SlideProps> = ({ slide }) => {
         src={slide.img1x}
         srcSet={`${slide.img1x} 1x, ${slide.img2x} 2x`}
         alt={slide.alt}
+        width="370"
+        height="664"
         className="w-full"
       />
       <div className="px-5 pb-6 pt-[30px] absolute left-0 bottom-0  bg-[rgba(0,0,0,0.20)]  rounded-b-3xl">

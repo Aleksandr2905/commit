@@ -30,7 +30,13 @@ export const About: React.FC = () => {
                 media="(max-width: 390px)"
                 srcSet={`${imgMan.mobile1x} 1x, ${imgMan.mobile2x} 2x`}
               />
-              <img src={imgMan.mobile1x} alt={imgMan.alt} />
+              <img
+                src={imgMan.mobile1x}
+                alt={imgMan.alt}
+                width="350"
+                height="300"
+                className="xl:w-[402px] xl:h-[576px]"
+              />
             </picture>
             <div>
               {isDesktop && (
@@ -38,6 +44,8 @@ export const About: React.FC = () => {
                   src={imgKeyboard.img1x}
                   srcSet={`${imgKeyboard.img1x} 1x, ${imgKeyboard.img2x} 2x`}
                   alt={imgKeyboard.alt}
+                  width="898"
+                  height="179"
                   className="mb-5"
                 />
               )}

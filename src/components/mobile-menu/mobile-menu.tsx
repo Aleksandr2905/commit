@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import sprite from "/images/icons/sprite.svg";
 import { Logo } from "../logo";
 import { NavMenu } from "../nav-menu";
+import { Social } from "../social";
 
 export const MobileMenu = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -42,7 +43,7 @@ export const MobileMenu = () => {
       {showMobileMenu && (
         <div
           onClick={handleBackdrop}
-          className="fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-50"
+          className="fixed z-10 top-0 left-0 w-screen h-screen bg-black bg-opacity-50"
         >
           <div className="mx-auto w-[370px] h-screen bg-whiteMilky border-4 border-black rounded-[40px] pt-10 px-5">
             <div className="flex mb-[60px]">
@@ -58,7 +59,10 @@ export const MobileMenu = () => {
               </button>
               <Logo mobile />
             </div>
-            <NavMenu mobile onClick={toggleMobileMenu} />
+            <div className="flex flex-col gap-8">
+              <NavMenu mobile onClick={toggleMobileMenu} />
+              <Social />
+            </div>
           </div>
         </div>
       )}
